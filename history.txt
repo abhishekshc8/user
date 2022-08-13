@@ -1,0 +1,90 @@
+    1  apt update
+    2  apt install git
+    3  clear
+    4  mkdir abhi
+    5  cd abhi
+    6  git config --global user.name Abhishek
+    7  git config --global user.email abhishekshc8@gmail.com
+    8  git config --global user.email
+    9  git config --global user.name
+   10  git init
+   11  clear
+   12  echo "# user" >> README.md
+   13  git add .
+   14  git commit -m "hi"
+   15  git branch
+   16  git remote add origin https://github.com/abhishekshc8/user.git
+   17  git push origin master
+   18  vim readme.md
+   19  vim abhi.txt
+   20  git add abhi.txt
+   21  git status
+   22  vim aunny.txt
+   23  git status
+   24  git commit -m "hi"
+   25  git status
+   26  git push origin master
+   27  cat abhi.txt
+   28  ls -la
+   29  vim abhi.txt
+   30  git add abhi.txt
+   31  git commit -m "alok"
+   32  git push origin master
+   33  git log > log.txt
+   34  vim log.txt
+   35  git status
+   36  git reset head~1
+   37  git reset abhi.txt head~1
+   38  git status
+   39  git reset abhi.txt
+   40  git status
+   41  git reset
+   42  git status
+   43  git reset HEAD~1
+   44  git shatus
+   45  git reset HEAD~1
+   46  git status
+   47  git add .
+   48  git commit -m "m"
+   49* git reset HEAD~1
+   50  git status
+   51  git push origin master
+   52  git status
+   53  git branch
+   54  git push origin master
+   55  ls -la
+   56  git status
+   57  git remote -v
+   58  git branch
+   59  git push -u origin master
+   60  vim abhi.txt
+   61  vim readme.md
+   62  vim README.md
+   63  git status
+   64  git add .
+   65  git status
+   66  git commit -m "update"
+   67* 
+   68  git origin
+   69  git remote
+   70  git pull
+   71  git reset –hard origin/master
+   72  git reset -hard origin/master
+   73  git reset --hard origin/master
+   74  git status
+   75  git branch
+   76  git push -u origin master
+   77  git status
+   78  clear
+   79  ls -la
+   80  git shatus
+   81  clear
+   82  git log > log.txt
+   83  git status
+   84  git add log.txt
+   85  git commit log.txt -m "log"
+   86  cat abhi.txt
+   87  cat README.md
+   88  git status
+   89  git push -u origin master
+   90  history > history.txt
